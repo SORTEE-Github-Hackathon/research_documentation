@@ -77,9 +77,9 @@ EmmaH$ ssh ehudgins@nature-vm04.carleton.ca
 
 * To clone a GitHub repo to a remote machine, install *git*
     - in the terminal (for Ubuntu), type
-```console
-ehudgins@nature-vm04:~/$ sudo apt install git
-```       
+    ```console
+    ehudgins@nature-vm04:~/$ sudo apt install git
+    ```
     - [see here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for other OS instructions
     - Configure git for your GitHub account
     ```console
