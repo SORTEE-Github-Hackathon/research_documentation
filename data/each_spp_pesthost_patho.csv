@@ -1,0 +1,490 @@
+genus,pest,genus.1,severity,clean_pest,genus2
+Abies amabilis,Balsam woolly adelgid (Adelges piceae)*,I/S,3,Adelges piceae,Abies
+Abies balsamea,Balsam woolly adelgid (Adelges piceae)*,I/S,8,Adelges piceae,Abies
+Abies fraseri,Balsam woolly adelgid (Adelges piceae)*,I/S,8,Adelges piceae,Abies
+Abies grandis,Balsam woolly adelgid (Adelges piceae)*,I/S,3,Adelges piceae,Abies
+Abies lasiocarpa,Balsam woolly adelgid (Adelges piceae)*,I/S,8,Adelges piceae,Abies
+Acer floridanum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer floridanum,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Acer
+Acer floridanum,Oystershell scale (Lepidosaphes ulmi)*,I/S,1,Lepidosaphes ulmi,Acer
+Acer glabrum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer glabrum,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Acer
+Acer glabrum,Oystershell scale (Lepidosaphes ulmi)*,I/S,1,Lepidosaphes ulmi,Acer
+Acer grandidentatum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer grandidentatum,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Acer
+Acer grandidentatum,Oystershell scale (Lepidosaphes ulmi)*,I/S,1,Lepidosaphes ulmi,Acer
+Acer leucoderme,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer leucoderme,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Acer
+Acer leucoderme,Oystershell scale (Lepidosaphes ulmi)*,I/S,1,Lepidosaphes ulmi,Acer
+Acer macrophyllum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer negundo,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer nigrum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer nigrum,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Acer
+Acer pensylvanicum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer pensylvanicum,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Acer
+Acer rubrum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer saccharinum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer saccharinum,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Acer
+Acer saccharum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer spicatum,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,8,Anoplophora glabripennis,Acer
+Acer spicatum,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Acer
+Aesculus californica,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Aesculus
+Aesculus flava,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Aesculus
+Aesculus glabra,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Aesculus
+Aesculus glabra var. arguta,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Aesculus
+Aesculus pavia,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Aesculus
+Aesculus sylvatica,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Aesculus
+Amelanchier arborea,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Amelanchier
+Amelanchier sanguinea,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Amelanchier
+Betula alleghaniensis,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Betula
+Betula lenta,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Betula
+Betula lenta,Gypsy moth (Lymantria dispar dispar)*,I/F,1,Lymantria dispar,Betula
+Betula nigra,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Betula
+Betula nigra,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Betula
+Betula nigra,Birch leafminer (Fenusa pusilla)*,I/F,1,Fenusa pusilla,Betula
+Betula nigra,Oystershell scale (Lepidosaphes ulmi)*,I/S,1,Lepidosaphes ulmi,Betula
+Betula occidentalis,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Betula
+Betula papyrifera,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Betula
+Betula papyrifera,Birch leafminer (Fenusa pusilla)*,I/F,3,Fenusa pusilla,Betula
+Betula papyrifera,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Betula
+Betula populifolia,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,5,Anoplophora glabripennis,Betula
+Betula populifolia,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Betula
+Betula populifolia,Birch leafminer (Fenusa pusilla)*,I/F,1,Fenusa pusilla,Betula
+Betula uber,Gypsy moth (Lymantria dispar dispar)*,I/F,1,Lymantria dispar,Betula
+Betula uber,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Betula
+Castanea dentata,Asiatic oak weevil (Cyrtepistomus castaneus)*,I/F,1,Cyrtepistomus castaneus,Castanea
+Castanea pumila,Asiatic oak weevil (Cyrtepistomus castaneus)*,I/F,1,Cyrtepistomus castaneus,Castanea
+Castanea pumila var. ozarkensis,Asiatic oak weevil (Cyrtepistomus castaneus)*,I/F,1,Cyrtepistomus castaneus,Castanea
+Chamaecyparis lawsoniana,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Chamaecyparis
+Chamaecyparis thyoides,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Chamaecyparis
+Crataegus brainerdii,Cherry bark tortrix (Enarmonia formosana)*,I/B,3,Enarmonia formosana,Crataegus
+Crataegus brainerdii,Winter moth (Operophtera brumata)*,I/F,1,Operophtera brumata,Crataegus
+Crataegus calpodendron,Cherry bark tortrix (Enarmonia formosana)*,I/B,3,Enarmonia formosana,Crataegus
+Crataegus calpodendron,Winter moth (Operophtera brumata)*,I/F,1,Operophtera brumata,Crataegus
+Crataegus chrysocarpa,Cherry bark tortrix (Enarmonia formosana)*,I/B,3,Enarmonia formosana,Crataegus
+Crataegus chrysocarpa,Winter moth (Operophtera brumata)*,I/F,1,Operophtera brumata,Crataegus
+Crataegus crus-galli,Cherry bark tortrix (Enarmonia formosana)*,I/B,3,Enarmonia formosana,Crataegus
+Crataegus crus-galli,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Crataegus
+Crataegus crus-galli,Winter moth (Operophtera brumata)*,I/F,1,Operophtera brumata,Crataegus
+Crataegus dilatata,Cherry bark tortrix (Enarmonia formosana)*,I/B,3,Enarmonia formosana,Crataegus
+Crataegus dilatata,Winter moth (Operophtera brumata)*,I/F,1,Operophtera brumata,Crataegus
+Crataegus flabellata,Cherry bark tortrix (Enarmonia formosana)*,I/B,3,Enarmonia formosana,Crataegus
+Crataegus flabellata,Winter moth (Operophtera brumata)*,I/F,1,Operophtera brumata,Crataegus
+Crataegus mollis,Cherry bark tortrix (Enarmonia formosana)*,I/B,3,Enarmonia formosana,Crataegus
+Crataegus mollis,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Crataegus
+Crataegus mollis,Winter moth (Operophtera brumata)*,I/F,1,Operophtera brumata,Crataegus
+Crataegus pedicellata,Cherry bark tortrix (Enarmonia formosana)*,I/B,3,Enarmonia formosana,Crataegus
+Crataegus pedicellata,Winter moth (Operophtera brumata)*,I/F,1,Operophtera brumata,Crataegus
+Fraxinus americana,Emerald ash borer (Agrilus planipennis)*,I/B,10,Agrilus planipennis,Fraxinus
+Fraxinus americana,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus berlandieriana,Emerald ash borer (Agrilus planipennis)*,I/B,9,Agrilus planipennis,Fraxinus
+Fraxinus berlandieriana,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus caroliniana,Emerald ash borer (Agrilus planipennis)*,I/B,10,Agrilus planipennis,Fraxinus
+Fraxinus caroliniana,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus cuspidata,Emerald ash borer (Agrilus planipennis)*,I/B,9,Agrilus planipennis,Fraxinus
+Fraxinus cuspidata,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus dipetala,Emerald ash borer (Agrilus planipennis)*,I/B,8,Agrilus planipennis,Fraxinus
+Fraxinus dipetala,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus greggii,Emerald ash borer (Agrilus planipennis)*,I/B,9,Agrilus planipennis,Fraxinus
+Fraxinus greggii,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus latifolia,Emerald ash borer (Agrilus planipennis)*,I/B,8,Agrilus planipennis,Fraxinus
+Fraxinus latifolia,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus nigra,Emerald ash borer (Agrilus planipennis)*,I/B,10,Agrilus planipennis,Fraxinus
+Fraxinus nigra,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus papillosa,Emerald ash borer (Agrilus planipennis)*,I/B,9,Agrilus planipennis,Fraxinus
+Fraxinus papillosa,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus pennsylvanica,Emerald ash borer (Agrilus planipennis)*,I/B,10,Agrilus planipennis,Fraxinus
+Fraxinus pennsylvanica,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus profunda,Emerald ash borer (Agrilus planipennis)*,I/B,10,Agrilus planipennis,Fraxinus
+Fraxinus profunda,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus quadrangulata,Emerald ash borer (Agrilus planipennis)*,I/B,8,Agrilus planipennis,Fraxinus
+Fraxinus quadrangulata,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus texensis,Emerald ash borer (Agrilus planipennis)*,I/B,9,Agrilus planipennis,Fraxinus
+Fraxinus texensis,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Fraxinus velutina,Emerald ash borer (Agrilus planipennis)*,I/B,9,Agrilus planipennis,Fraxinus
+Fraxinus velutina,Oystershell scale (Lepidosaphes ulmi)*,I/S,3,Lepidosaphes ulmi,Fraxinus
+Gleditsia aquatica,Calico scale (Eulecanium cerasorum)*,I/S,1,Eulecanium cerasorum,Gleditsia
+Gleditsia aquatica,Mimosa webworm (Homadaula anisocentra)*,I/F,1,Homadaula anisocentra,Gleditsia
+Gleditsia triacanthos,Calico scale (Eulecanium cerasorum)*,I/S,1,Eulecanium cerasorum,Gleditsia
+Juniperus ashei,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus californica,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus coahuilensis,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus deppeana,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus occidentalis,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus osteosperma,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus pinchotii,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus scopulorum,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus virginiana,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Juniperus virginiana var. silicicola,Juniper scale (Carulaspis juniperi)*,I/S,1,Carulaspis juniperi,Juniperus
+Larix laricina,Larch casebearer (Coleophora laricella)*,I/F,5,Coleophora laricella,Larix
+Larix laricina,Larch sawfly (Pristiphora erichsonii),I/F,5,Pristiphora erichsonii,Larix
+Larix laricina,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Larix
+Larix lyallii,Larch sawfly (Pristiphora erichsonii),I/F,1,Pristiphora erichsonii,Larix
+Larix occidentalis,Larch casebearer (Coleophora laricella)*,I/F,3,Coleophora laricella,Larix
+Larix occidentalis,Larch sawfly (Pristiphora erichsonii),I/F,3,Pristiphora erichsonii,Larix
+Liquidambar styraciflua,Calico scale (Eulecanium cerasorum)*,I/S,1,Eulecanium cerasorum,Liquidambar
+Liquidambar styraciflua,Gypsy moth (Lymantria dispar dispar)*,I/F,1,Lymantria dispar,Liquidambar
+Morus microphylla,Pink hibiscus mealybug (Maconellicoccus hirsutus)*,I/S,1,Maconellicoccus hirsutus,Morus
+Morus rubra,Pink hibiscus mealybug (Maconellicoccus hirsutus)*,I/S,1,Maconellicoccus hirsutus,Morus
+Ostrya virginiana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Ostrya
+Pinus pungens,European pine sawfly (Neodiprion sertifer)*,I/F,1,Neodiprion sertifer,Pinus
+Pinus resinosa,Red pine scale (Matsucoccus resinosae)*,I/S,3,Matsucoccus matsumurae,Pinus
+Pinus strobus,Pine shoot beetle (Tomicus piniperda)*,I/B,1,Tomicus piniperda,Pinus
+Populus angustifolia,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,1,Cryptorhynchus lapathi,Populus
+Populus balsamifera,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Populus
+Populus balsamifera,Oystershell scale (Lepidosaphes ulmi)*,I/S,1,Lepidosaphes ulmi,Populus
+Populus balsamifera ssp. trichocarpa,Oystershell scale (Lepidosaphes ulmi)*,I/S,1,Lepidosaphes ulmi,Populus
+Populus balsamifera ssp. trichocarpa,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,1,Cryptorhynchus lapathi,Populus
+Populus grandidentata,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Populus
+Populus heterophylla,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Populus
+Quercus acerifolia,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus agrifolia,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Quercus alba,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus arkansana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus bicolor,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus boyntonii,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus buckleyi,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus chrysolepis,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Quercus coccinea,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus douglasii,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Quercus ellipsoidalis,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus engelmannii,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Quercus falcata,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus garryana,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Quercus georgiana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus ilicifolia,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus imbricaria,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus incana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus kelloggii,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Quercus laevis,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus laurifolia,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus lobata,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Quercus lyrata,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus macrocarpa,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus margaretta,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus marilandica,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus michauxii,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus minima,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus muehlenbergii,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus myrtifolia,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus nigra,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus oglethorpensis,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus pagoda,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus palustris,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus phellos,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus prinoides,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus prinus,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus rubra,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus shumardii,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus similis,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus sinuata,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus stellata,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus texana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus tomentella,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Quercus velutina,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus virginiana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Quercus
+Quercus wislizeni,Oak pit scale (Asterolecanium spp.)*,I/S,3,Asterolecanium variolosum,Quercus
+Sorbus americana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Sorbus
+Sorbus decora,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Sorbus
+Taxus brevifolia,Black vine weevil (Otiorhynchus sulcatus)*,I/F,1,Otiorhynchus sulcatus,Taxus
+Tilia americana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Tilia
+Tilia americana,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Tilia
+Tilia americana var. caroliniana,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Tilia
+Tilia americana var. caroliniana,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Tilia
+Tilia americana var. heterophylla,Gypsy moth (Lymantria dispar dispar)*,I/F,3,Lymantria dispar,Tilia
+Tilia americana var. heterophylla,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Tilia
+Tsuga canadensis,Hemlock woolly adelgid (Adelges tsugae)*,I/S,10,Adelges tsugae,Tsuga
+Tsuga canadensis,Elongate hemlock scale (Fiorinia externa)*,I/S,3,Fiorinia externa,Tsuga
+Tsuga caroliniana,Hemlock woolly adelgid (Adelges tsugae)*,I/S,10,Adelges tsugae,Tsuga
+Tsuga caroliniana,Elongate hemlock scale (Fiorinia externa)*,I/S,3,Fiorinia externa,Tsuga
+Ulmus alata,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,3,Anoplophora glabripennis,Ulmus
+Ulmus americana,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,3,Anoplophora glabripennis,Ulmus
+Ulmus americana,Banded elm bark beetle (Scolytus schevyrewi)*,I/B,3,Scolytus schevyrewi,Ulmus
+Ulmus crassifolia,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,3,Anoplophora glabripennis,Ulmus
+Ulmus rubra,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,3,Anoplophora glabripennis,Ulmus
+Ulmus serotina,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,3,Anoplophora glabripennis,Ulmus
+Ulmus thomasii,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,3,Anoplophora glabripennis,Ulmus
+Ulmus thomasii,Banded elm bark beetle (Scolytus schevyrewi)*,I/B,3,Scolytus schevyrewi,Ulmus
+Salix alaxensis,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix amygdaloides,Gypsy Moth (Lymantria dispar dispar),I/F,3,Lymantria dispar,Salix
+Salix amygdaloides,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix arbusculoides,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix bebbiama,Gypsy Moth (Lymantria dispar dispar),I/F,3,Lymantria dispar,Salix
+Salix bebbiama,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix bonplandiana,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix caroliniana,Gypsy Moth (Lymantria dispar dispar),I/F,3,Lymantria dispar,Salix
+Salix caroliniana,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix laevigata,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix lasiolepis,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix lucida ssp. Lasiandra,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix nigra,Gypsy Moth (Lymantria dispar dispar),I/F,3,Lymantria dispar,Salix
+Salix nigra,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix pyrifolia,Gypsy Moth (Lymantria dispar dispar),I/F,3,Lymantria dispar,Salix
+Salix pyrifolia,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix scouleriana,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Salix taxifolia,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,1,Anoplophora glabripennis,Salix
+Sapindus drummondii,Soapberry borer (Agrilus prionurus)*,I/B,8,Agrilus prionurus,Sapindus
+Sassafras albidum sassafras,Japanese beetle (Popillia japonica)*,I/F,1,Popillia japonica,Sassafras
+Abies bracteata,Balsam woolly adelgid (Adelges piceae)*,I/S,0,Adelges piceae,Abies
+Abies concolor,Balsam woolly adelgid (Adelges piceae)*,I/S,0,Adelges piceae,Abies
+Abies lasiocarpa var. arizonica,Balsam woolly adelgid (Adelges piceae)*,I/S,0,Adelges piceae,Abies
+Abies magnifica,Balsam woolly adelgid (Adelges piceae)*,I/S,0,Adelges piceae,Abies
+Abies magnifica var. shastensis,Balsam woolly adelgid (Adelges piceae)*,I/S,0,Adelges piceae,Abies
+Betula uber,Asian longhorned beetle (Anoplophora glabripennis)*,I/B,0,Anoplophora glabripennis,Acer
+Acer macrophyllum,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Acer negundo,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Acer rubrum,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Acer saccharum,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Betula alleghaniensis,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Betula lenta,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Betula nigra,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Betula occidentalis,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Betula papyrifera,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Betula populifolia,Japanese beetle (Popillia japonica)*,I/F,0,Popillia japonica,Acer
+Acer macrophyllum,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Acer negundo,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Acer nigrum,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Acer pensylvanicum,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Acer rubrum,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Acer saccharinum,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Acer saccharum,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Acer spicatum,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Betula alleghaniensis,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Betula lenta,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Betula occidentalis,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Betula papyrifera,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Betula populifolia,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Betula uber,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Populus angustifolia,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Populus deltoides,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Populus deltoides ssp. monilifera,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Populus fremontii,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Populus grandidentata,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Populus heterophylla,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Populus tremuloides,Oystershell scale (Lepidosaphes ulmi)*,I/S,0,Lepidosaphes ulmi,Acer
+Betula alleghaniensis,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Betula occidentalis,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Crataegus brainerdii,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Crataegus calpodendron,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Crataegus chrysocarpa,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Crataegus dilatata,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Crataegus flabellata,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Crataegus pedicellata,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Larix lyallii,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Larix occidentalis,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Populus angustifolia,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Populus balsamifera ssp. trichocarpa,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Populus deltoides,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Populus deltoides ssp. monilifera,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Populus fremontii,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Populus tremuloides,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus agrifolia,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus chrysolepis,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus douglasii,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus emoryi,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus engelmannii,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus gambelii,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus garryana,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus gravesii,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus hypoleucoides,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus kelloggii,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus laceyi,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus lobata,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus tomentella,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus wislizeni,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Quercus oblongifolia,Gypsy moth (Lymantria dispar dispar)*,I/F,0,Lymantria dispar,Amelanchier
+Betula alleghaniensis,Birch leafminer (Fenusa pusilla)*,I/F,0,Fenusa pusilla,Betula
+Betula lenta,Birch leafminer (Fenusa pusilla)*,I/F,0,Fenusa pusilla,Betula
+Betula occidentalis,Birch leafminer (Fenusa pusilla)*,I/F,0,Fenusa pusilla,Betula
+Betula uber,Birch leafminer (Fenusa pusilla)*,I/F,0,Fenusa pusilla,Betula
+Juniperus flaccida,Juniper scale (Carulaspis juniperi)*,I/S,0,Carulaspis juniperi,Chamaecyparis
+Juniperus monosperma,Juniper scale (Carulaspis juniperi)*,I/S,0,Carulaspis juniperi,Chamaecyparis
+Gleditsia triacanthos,Mimosa webworm (Homadaula anisocentra)*,I/F,0,Homadaula anisocentra,Gleditsia
+Larix lyallii,Larch casebearer (Coleophora laricella)*,I/F,0,Coleophora laricella,Larix
+Pinus albicaulis,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus aristata,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus attenuata,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus balfouriana,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus banksiana,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus cembroides,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus clausa,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus contorta,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus coulteri,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus discolor,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus echinata,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus edulis,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus elliottii,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus engelmannii,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus flexilis,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus glabra,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus jeffreyi,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus lambertiana,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus leiophylla,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus longaeva,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus monophylla,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus monophylla var. fallax,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus monticola,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus muricata,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus palustris,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus ponderosa,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus ponderosa var. washoensis,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus quadrifolia,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus radiata,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus remota,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus resinosa,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus rigida,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus sabiniana,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus serotina,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus strobiformis,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus strobus,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus taeda,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus torreyana,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus virginiana,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus arizonica,European pine sawfly (Neodiprion sertifer)*,I/F,0,Neodiprion sertifer,Pinus
+Pinus albicaulis,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus aristata,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus attenuata,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus balfouriana,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus banksiana,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus cembroides,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus clausa,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus contorta,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus coulteri,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus discolor,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus echinata,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus edulis,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus elliottii,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus engelmannii,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus flexilis,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus glabra,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus jeffreyi,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus lambertiana,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus leiophylla,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus longaeva,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus monophylla,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus monophylla var. fallax,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus monticola,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus muricata,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus palustris,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus ponderosa,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus ponderosa var. washoensis,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus pungens,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus quadrifolia,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus radiata,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus remota,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus rigida,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus sabiniana,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus serotina,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus strobiformis,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus strobus,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus taeda,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus torreyana,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus virginiana,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus arizonica,Red pine scale (Matsucoccus resinosae)*,I/S,0,Matsucoccus matsumurae,Pinus
+Pinus albicaulis,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus aristata,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus attenuata,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus balfouriana,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus banksiana,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus cembroides,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus clausa,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus contorta,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus coulteri,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus discolor,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus echinata,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus edulis,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus elliottii,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus engelmannii,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus flexilis,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus glabra,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus jeffreyi,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus lambertiana,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus leiophylla,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus longaeva,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus monophylla,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus monophylla var. fallax,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus monticola,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus muricata,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus palustris,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus ponderosa,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus ponderosa var. washoensis,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus pungens,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus quadrifolia,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus radiata,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus remota,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus resinosa,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus rigida,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus sabiniana,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus serotina,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus strobiformis,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus taeda,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus torreyana,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus virginiana,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Pinus arizonica,Pine shoot beetle (Tomicus piniperda)*,I/B,0,Tomicus piniperda,Pinus
+Populus balsamifera,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,0,Cryptorhynchus lapathi,Populus
+Populus deltoides,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,0,Cryptorhynchus lapathi,Populus
+Populus deltoides ssp. monilifera,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,0,Cryptorhynchus lapathi,Populus
+Populus fremontii,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,0,Cryptorhynchus lapathi,Populus
+Populus grandidentata,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,0,Cryptorhynchus lapathi,Populus
+Populus heterophylla,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,0,Cryptorhynchus lapathi,Populus
+Populus tremuloides,Poplar-and-willow borer (Cryptorhynchus lapathi)*,I/B,0,Cryptorhynchus lapathi,Populus
+Quercus acerifolia,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus alba,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus arkansana,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus bicolor,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus boyntonii,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus buckleyi,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus coccinea,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus ellipsoidalis,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus emoryi,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus falcata,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus gambelii,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus georgiana,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus gravesii,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus hypoleucoides,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus ilicifolia,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus imbricaria,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus incana,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus laceyi,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus laevis,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus laurifolia,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus lyrata,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus macrocarpa,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus margaretta,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus marilandica,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus michauxii,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus minima,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus muehlenbergii,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus myrtifolia,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus nigra,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus oglethorpensis,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus pagoda,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus palustris,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus phellos,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus prinoides,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus prinus,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus rubra,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus shumardii,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus similis,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus sinuata,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus stellata,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus texana,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus velutina,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus virginiana,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Quercus oblongifolia,Oak pit scale (Asterolecanium spp.)*,I/S,0,Asterolecanium variolosum,Quercus
+Tsuga heterophylla,Hemlock woolly adelgid (Adelges tsugae)*,I/S,0,Adelges tsugae,Tsuga
+Tsuga mertensiana,Hemlock woolly adelgid (Adelges tsugae)*,I/S,0,Adelges tsugae,Tsuga
+Tsuga heterophylla,Elongate hemlock scale (Fiorinia externa)*,I/S,0,Fiorinia externa,Tsuga
+Tsuga mertensiana,Elongate hemlock scale (Fiorinia externa)*,I/S,0,Fiorinia externa,Tsuga
+Ulmus alata,Banded elm bark beetle (Scolytus schevyrewi)*,I/B,0,Scolytus schevyrewi,Ulmus
+Ulmus crassifolia,Banded elm bark beetle (Scolytus schevyrewi)*,I/B,0,Scolytus schevyrewi,Ulmus
+Ulmus rubra,Banded elm bark beetle (Scolytus schevyrewi)*,I/B,0,Scolytus schevyrewi,Ulmus
+Ulmus serotina,Banded elm bark beetle (Scolytus schevyrewi)*,I/B,0,Scolytus schevyrewi,Ulmus
+Salix alaxensis,Gypsy Moth (Lymantria dispar dispar),I/F,0,Lymantria dispar,Salix
+Salix arbusculoides,Gypsy Moth (Lymantria dispar dispar),I/F,0,Lymantria dispar,Salix
+Salix bonplandiana,Gypsy Moth (Lymantria dispar dispar),I/F,0,Lymantria dispar,Salix
+Salix laevigata,Gypsy Moth (Lymantria dispar dispar),I/F,0,Lymantria dispar,Salix
+Salix lasiolepis,Gypsy Moth (Lymantria dispar dispar),I/F,0,Lymantria dispar,Salix
+Salix lucida ssp. Lasiandra,Gypsy Moth (Lymantria dispar dispar),I/F,0,Lymantria dispar,Salix
+Salix scouleriana,Gypsy Moth (Lymantria dispar dispar),I/F,0,Lymantria dispar,Salix
+Salix taxifolia,Gypsy Moth (Lymantria dispar dispar),I/F,0,Lymantria dispar,Salix
