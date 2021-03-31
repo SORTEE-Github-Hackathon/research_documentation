@@ -1,7 +1,5 @@
 ## GitHub + R over SSH for newcomers to the terminal
 
-***
-
 #### _A quick (and most likely dirty) tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca) for the Bennett Lab @ Carleton_
 
 >This is also the first real markdown document I have ever made, so I apologize if the formatting is gross!
