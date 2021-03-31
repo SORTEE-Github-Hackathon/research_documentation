@@ -23,7 +23,6 @@ _Useful for tasks that require a lot of computer power. You don't need to keep y
 
 > Connect to the [Carleton VPN](https://carleton.ca/its/help-centre/remote-access/) before attempting to connect to any Carleton computer
 
-***
 
 #### 3.1 Accessing Biology Dept. computers (Windows)  
 
