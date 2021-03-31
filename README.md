@@ -38,7 +38,7 @@ These machines don't have _OpenSSH_ enabled, so it's a bit harder to share files
     
     
 * Open **WinSCP** on the remote machine and establish a connection to your local machine (it should be already installed)
-    - Make sure **Remote login** is [enabled](https://knowledge.autodesk.com/support/smoke/troubleshooting/caas/sfdcarticles/sfdcarticles/Enabling-remote-SSH-login-on-Mac-OS-X.html) on your local computer
+    - Make sure **Remote login** is [enabled](https://knowledge.autodesk.com/support/smoke/troubleshooting/caas/sfdcarticles/sfdcarticles/Enabling-remote-SSH-login-on-Mac-OS-X.html) on your local computer. **UPDATE 03-31** Richard identified this as a potential security threat. It is likely best to use key pair system like [this](https://www.ssh.com/ssh/putty/windows/puttygen) instead to enable remote login (I realized after the workshop that I forgot that I took this step)
     - Google _'What's my IP'_? to figure out your IP address on your local machine
     - Your login credentials are _username@your.IP.address_
     ```console       
@@ -46,8 +46,8 @@ These machines don't have _OpenSSH_ enabled, so it's a bit harder to share files
     ``` 
     - Once again, you might need to say _Yes_ to a message about a fingerprint before your connection is established
     - Once connected, you can drag and drop files/folders in both directions, and open and edit files in text editor
-    - You can also run jobs in the Windows terminal via remote desktop (**Powershell** or **Command Prompt**). If you use the ```setsid``` protocol in 3.5, they won't get disconnected when the VPN disconnects.
-
+    - You can also run jobs in the Windows terminal via remote desktop (**Powershell** or **Command Prompt**). Here, the ```setsid``` protocol in 3.5 is likely less useful because the job doesn't stop when your Remote desktop session ends. 
+    - Instead of WinSCP, you can use Dropbox or OneDrive to transfer the files, or you can clone github repositories to the computers (see 3.4)
 
 
 #### 3.2 Sharing files to NCC computers (Ubuntu VMs) 
@@ -64,9 +64,9 @@ These machines don't have _OpenSSH_ enabled, so it's a bit harder to share files
 * Open terminal (```Ctrl+Alt+T``` on Ubuntu, ```Command+Space``` on Mac to bring up **Spotlight** and search for ```Terminal```, or use the Windows Start menu and look for **Windows Powershell** or **Command Prompt**)
 * Type ```ssh user@hostname``` for the remote machine you want to connect to
 ```console
-EmmaH$ ssh ehudgins@nature-vm04.carleton.ca
+EmmaH:~/$ ssh ehudgins@nature-vm04.carleton.ca
 ```
-* Enter your password when prompted, (be prepares to say _Yes_ to yet another message about a fingerprint)
+* Enter your password when prompted, (be prepared to say _Yes_ to yet another message about a fingerprint)
 * Navigate to the directory where your script is stored (maybe you transfered it there with FileZilla?) using [*cd*](https://linuxize.com/post/linux-cd-command/)
 
 #### 3.4 Configuring git on a remote machine
@@ -104,11 +104,11 @@ ehudgins@nature-vm04:~/example_github_osf$ git commit -m "<message>"
 ehudgins@nature-vm04:~/example_github_osf$ ls -l # check permissions of files in current directory
 ehudgins@nature-vm04:~/example_github_osf$ sudo chmod 755 <script.R>
 ``` 
-* Run the script using [setsid](https://linux.die.net/man/2/setsid)
+* Run the script using [setsid](https://linux.die.net/man/2/setsid) **UPDATE 03-31 [```tmux```](https://phoenixnap.com/kb/tmux-tutorial-install-commands) is a more broadly useful alternative to ```setsid```**
 ```console
 ehudgins@nature-vm04:~/example_github_osf$ setsid R CMD BATCH ./1_beta_mortallity_stan.R &
 ```
-* While it runs, check memory/CPU usage in _top_
+* While it runs, check memory/CPU usage in _top_ **UPDATE 03-31 ```htop``` is a pretty alternative to ```top```.**
 ```console
 ehudgins@nature-vm04:~/example_github_osf$ top
 ```
