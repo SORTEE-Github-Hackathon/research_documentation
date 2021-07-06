@@ -1,8 +1,6 @@
-## GitHub + R over SSH for newcomers to the terminal
+## GitHub for research documentation
 
-#### _A quick (and most likely dirty) tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca) for the Bennett Lab @ Carleton_
-
->This is also the first real markdown document I have ever made, so I apologize if the formatting is gross!
+#### _A quick tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca), originally for the Bennett Lab @ Carleton_
 
 
 ### 1. Getting set up 
@@ -17,47 +15,6 @@
 - A **Git** pane should now appear in the top right of newer versions of RStudio when you're working in the associated R Project (see 3.4 for more on Git), but you can also set a default text editor (I like [**Sublime**](https://www.sublimetext.com))
 
 
-### 3. Working remotely  
-
-_Useful for tasks that require a lot of computer power. You don't need to keep your computer open overnight or worry about getting disconnected from the VPN. You only need a few lines of code in the terminal. Lots of cores means you can take advantage of R functions like foreach(), doParallel(), etc. **[email me](mailto:emma.hudgins@carleton.ca) if you want help getting started with these!**_  
-
-> Connect to the [Carleton VPN](https://carleton.ca/its/help-centre/remote-access/) before attempting to connect to any Carleton computer
-
-
-#### 3.1 Accessing Biology Dept. computers (Windows)  
-
-These machines don't have _OpenSSH_ enabled, so it's a bit harder to share files. 
-
-* Download [Microsoft remote desktop](https://carleton.ca/its/help-centre/remote-access/)
-    - Add a new remote connection at the computer address
-    ```console
-    ehudgins@R-TT4690-03@carleton.ca
-    ```
-    - When prompted, enter your CUNET login credentials (you might need to say _Yes_ to a message about a fingerprint)
-    
-    
-    
-* Open **WinSCP** on the remote machine and establish a connection to your local machine (it should be already installed)
-    - Make sure **Remote login** is [enabled](https://knowledge.autodesk.com/support/smoke/troubleshooting/caas/sfdcarticles/sfdcarticles/Enabling-remote-SSH-login-on-Mac-OS-X.html) on your local computer. **UPDATE 03-31** Richard identified this as a potential security threat. It is likely best to use a key pair system like [this](https://www.ssh.com/ssh/putty/windows/puttygen) instead to enable remote login.
-    - Google _'What's my IP'_? to figure out your IP address on your local machine
-    - Your login credentials are _username@your.IP.address_
-    ```console       
-    EmmaH@134.117.185.78
-    ``` 
-    - Once again, you might need to say _Yes_ to a message about a fingerprint before your connection is established
-    - Once connected, you can drag and drop files/folders in both directions, and open and edit files in text editor
-    - You can also run jobs in the Windows terminal via remote desktop (**Powershell** or **Command Prompt**). Here, the ```setsid``` protocol in 3.5 is likely less useful because the job doesn't stop when your Remote desktop session ends. 
-    - Instead of WinSCP, you can use Dropbox or OneDrive to transfer the files, or you can clone github repositories to the computers (see 3.4)
-
-
-#### 3.2 Sharing files to NCC computers (Ubuntu VMs) 
-* For individual file transfer, download [FileZilla](https://filezilla-project.org) (or use [sftp](https://www.cs.fsu.edu/~myers/howto/commandLineSSH.html) from the terminal)
-    - your login credentials are sftp://username@server
-    ```console
-    sftp://ehudgins@nature-vm04.carleton.ca
-    ```
-* If you want to sync an existing GitHub repository, use git in the terminal (see 3.4, and [see here for more info](http://dept.stat.lsa.umich.edu/~jerrick/courses/stat701/notes/git.html) on working with git in various ways 
-
 #### 3.3 Connecting to a remote server via SSH
 
 
@@ -69,8 +26,10 @@ EmmaH:~/$ ssh ehudgins@nature-vm04.carleton.ca
 * Enter your password when prompted, (be prepared to say _Yes_ to yet another message about a fingerprint)
 * Navigate to the directory where your script is stored (maybe you transfered it there with FileZilla?) using [*cd*](https://linuxize.com/post/linux-cd-command/)
 
+
 #### 3.4 Configuring git on a remote machine
 
+* If you want to sync an existing GitHub repository, use git in the terminal (see 3.4, and [see here for more info](http://dept.stat.lsa.umich.edu/~jerrick/courses/stat701/notes/git.html) on working with git in various ways 
 
 * To clone a GitHub repo to a remote machine, install *git*
     - in the terminal (for Ubuntu), type
@@ -98,48 +57,56 @@ ehudgins@nature-vm04:~/example_github_osf$ git commit -m "<message>"
 ehudgins@nature-vm04:~/example_github_osf$ git push
 ```   
 
-#### 3.5 Executing a script remotely without killing it when the VPN disconnects via ```setsid```
-
-* Ensure the script is executable by you (Not sure how necessary this is. This has been more of an issue for me with _.sh_ files)
-```console     
-ehudgins@nature-vm04:~/example_github_osf$ ls -l # check permissions of files in current directory
-ehudgins@nature-vm04:~/example_github_osf$ sudo chmod 755 <script.R>
-``` 
-* Run the script using [setsid](https://linux.die.net/man/2/setsid) **UPDATE 03-31 [```tmux```](https://phoenixnap.com/kb/tmux-tutorial-install-commands) is a more broadly useful alternative to ```setsid```**
-```console
-ehudgins@nature-vm04:~/example_github_osf$ setsid R CMD BATCH ./1_beta_mortallity_stan.R &
-```
-* While it runs, check memory/CPU usage in _top_ **UPDATE 03-31 ```htop``` is a pretty alternative to ```top```.**
-```console
-ehudgins@nature-vm04:~/example_github_osf$ top
-```
-<img src="top_example.png" alt="Example top output" width="600"/>
-
-* By default, a log will be printed to the file _scriptname.Rout_. Change the log file by using the argument ```>logfile``` at the end of your ```setsid``` command
-* [Here are some more basic terminal commands](https://dev.to/kymiddleton/reference-guide-common-commands-for-terminal-6no)
-
 #### 3.6 Linking GitHub with OSF
 
-* Follow Jaimie's previous instructions to create a new project from the template
+* Create a new OSF project (link)(image) or use a template (My lab has started following this basic template (image)
 * add your RDMP to the RDMP section of the OSF project
 * Add GitHub as an Add-on in your OSF profile in **Settings>>Configure add-on accounts**
 * Link GitHub with your OSF account in the **Add-ons** section of the relevant project components (e.g. Analysis)
     - Select **Import Account from Profile**
     - Select the corresponding repo for the project
 
-#### 4. Addendum of regrets
+#### 4. Some reproducibility tips (large taken from the Bennett Lab manual compiled by Jaimie Vincent)
 
-> A brief list of the many bad habits I am still learning to correct
+* Data management and storage
 
-- Making new versions of a script every time I make a change and giving each new script a really uninformative name, which later causes me to forget which is the 'right' one is (I'm bad for using the date, even though the file system always saves the date you create a file anyway...)
-- Keeping data and code in the same folder
-- Keeping muliple projects in a single folder (I did this because my projects build off one another, but I'm currently working to create stable external copy of my more general data)
-- Not using R projects and reading files in from everywhere
-- Keeping an RStudio session open for weeks
-- Commenting out chunks of code instead of using switches/wrapping code inside functions (but I would argue these aren't always the best option in early stages of analysis OR if you need a million of them)
-- writing stuff to _.csv_ insted of _.RDS_ (_.RDS_ is a lot more compact than _.RData_!)
-- not making use of dplyr/tidyverse/packrat
-- not reusing helper functions across projects
-- Commenting/cleaning the code & writing metadata at the time of submission
-- Not asking people enough questions when they send me data, then having to email them years later
-- Not asking other people about their workflows!
+- Starting any research project with an RDMP provides direction for conducting research in line with Open Science/FAIR practices.
+- Data and code should be backed up regularly, using the “3-2-1” rule as a rule of thumb - this means having three copies of your data (your working copy and two backups) on two different formats (e.g., cloud storage and disk storage) with at least 1 off-site copy for disaster recovery. 
+Update your RDMP as necessary to include information about where these files will be permanently stored in addition to your storage, backup, security and archiving protocols. 
+- Your code and/or analyses, interpreted data, and other outputs (e.g., figures, tables) should be continuously backed up and securely stored. 
+ Be sure to consider data privacy when making backups.
+- Store data and code in an organized file system (for instance, using a breakdown of scripts, raw data, derived data , outputs within a large project directory)
+- Do not alter the raw data (consider making it read-only) to have a stable separate copy
+
+* Intellectual property
+
+- This is particularly important to discuss when the work belongs to students whose association with a particular research group may be temporary.
+The RDMP can help transparency around whose intellectual property this work represents. It can be useful to name a single data steward who is responsible for the maintenance of the code and data throughout its lifecycle
+
+* Metadata
+
+- There should be adequate metadata documentation. Metadata provides information about code and data function and usage, and often takes the form of ‘README’ files in research projects. GitHub Desktop asks if you want to initialize a README file whenever you create a new repo
+Consider having a single readme at the minimum for the project that outlines all scripts and input data files and how they interact such that the analyses can be reproduced. 
+- At the minimum, this file should contain the project Title, Authors, Description - including of all folder subdirectories and how they relate to each other, Date, and License. GitHub allows easy association of a variety of license types with repositories - consider a license like GPL or CC-BY to ensure allowability of the reuse of your code
+- Cryptic naming conventions in data files should be described, as well as any units and geographic transformations. 
+- If the project includes external data sources, download dates should be provided as well as any relevant filters selected.
+- Update the metadata following any changes to the workflow
+
+
+* Code
+
+- Provide software and package version information in either the metadata or in a commented header section of any script
+- provide annotated code with comments describing all steps taken in the analysis
+- All figures and tables should be entirely reproducible with the code and data provided (data privacy restrictions permitting). For sensitive data, plan for appropriate anonymization and secure storage
+- Consider using packages that guess working directories (e.g. here package for R), or using project files like .Rproj to facilitate data and code integration when the data and code are shared
+
+
+* Hosting
+Link the project with a platform that can provide a persistent link to the published version of the data (e.g. Zenodo link with GitHub, Dryad) in order to ensure the published results can be reproduced even as the workflow evolves (add Zenodo example)
+
+
+* Naming:
+https://help.osf.io/hc/en-us/articles/360019931113-File-naming
+- Consider adopting a standard file naming convention, i.e. using dashes or underscores to separate name components (avoiding special characters and spaces, especially)
+- Use the most informative naming as possible within all project components (including variable names in code).
+- Number or date scripts so that they order themselves meaningfully (i.e. by order of use or version number)
