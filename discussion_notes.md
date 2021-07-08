@@ -1,5 +1,8 @@
 # Breakout room 3 - Research documentation
 
+[![hackmd-github-sync-badge](https://hackmd.io/N9ISkOp3QraJ_sVEiZdU4Q/badge)](https://hackmd.io/N9ISkOp3QraJ_sVEiZdU4Q)
+
+
 #### *Within* each breakout room, we'll cover the following topics:  
 Step 1: Presentation of the breakout room topic   
 Step 2: Brief tutorial and time for individual practice  
