@@ -1,6 +1,8 @@
-## GitHub for research documentation
+# GitHub for research documentation
 
-See the slides [here](https://docs.google.com/presentation/d/1CQNClZyES0My-WFBqobd7KymMu9KLMrVLgvMO72WSPY/edit?usp=sharing)
+## See the slides [here](https://docs.google.com/presentation/d/1CQNClZyES0My-WFBqobd7KymMu9KLMrVLgvMO72WSPY/edit?usp=sharing)
+[![hackmd-github-sync-badge](https://hackmd.io/N9ISkOp3QraJ_sVEiZdU4Q/badge)](https://hackmd.io/N9ISkOp3QraJ_sVEiZdU4Q)
+
 
 #### _A quick tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca), originally for the Bennett Lab @ Carleton_
 
@@ -19,7 +21,10 @@ See the slides [here](https://docs.google.com/presentation/d/1CQNClZyES0My-WFBqo
 
 #### 3. Linking GitHub with OSF
 
-* Create a new OSF project (link)(image) or use a template (My lab has started following this basic template (image)
+* Create a new OSF project 
+ ![](https://github.com/SORTEE-Github-Hackathon/research_documentation/osf_proj.png)
+*  or use a template (My lab has started following this basic template)
+
 * add your RDMP to the RDMP section of the OSF project
 * Add GitHub as an Add-on in your OSF profile in **Settings>>Configure add-on accounts**
 * Link GitHub with your OSF account in the **Add-ons** section of the relevant project components (e.g. Analysis)
