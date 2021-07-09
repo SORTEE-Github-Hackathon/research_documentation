@@ -28,9 +28,8 @@ for(i in 1:nsims)
   m_beta<-stan(file="./stan/beta_mort_lhc.stan",data = list(y=y),pars=c("shape", "scale", "log_lik"),iter=nsamps, cores=4) #fit beta mortality model
   pp_par1<-length(which(extract(m_beta)$shape[(nsamps+1):(nsamps*2)]<=pars[i,1]))/nsamps #extract percentiles in which parameters fall for pp-plots for samples beyond burn-in
   pp_par2<-length(which(extract(m_beta)$scale[(nsamps+1):(nsamps*2)]<=pars[i,2]))/nsamps
-  
-  write.table(cbind(i,pp_par1, pp_par2), file=paste("./output/lhc_sim.partial.csv", sep='.'), row.names=F, append=T, sep=",", col.names=F) # append output to file (delete between runs to avoid merging with old data)
 }
+  write.table(cbind(i,pp_par1, pp_par2), file=paste("./output/lhc_sim.partial.csv", sep='.'), row.names=F, sep=",", col.names=F) 
 
 
 #### 3. Fit empirical model ####
