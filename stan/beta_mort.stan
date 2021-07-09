@@ -1,4 +1,8 @@
-  data {
+// written by Emma J. Hudgins, 2019
+// STAN beta model for estimating pest severity and cost
+// see preprint https://www.biorxiv.org/content/10.1101/2021.04.24.441210v4
+ 
+data {
 
     real oneT; 
     real threeT; 

@@ -1,4 +1,8 @@
-  data {
+// written by Emma J. Hudgins, 2019
+// theoretical simulation STAN beta model for estimating missing binned bounds
+// see preprint https://www.biorxiv.org/content/10.1101/2021.04.24.441210v4
+ 
+data {
     
     real y[100];
 

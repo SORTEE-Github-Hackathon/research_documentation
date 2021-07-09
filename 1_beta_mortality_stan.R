@@ -1,14 +1,15 @@
 ### Theoretical simulations and Empirical STAN beta model for estimating pest severity and cost ## 
+## see preprint https://www.biorxiv.org/content/10.1101/2021.04.24.441210v4
 ## Written by Emma J. Hudgins, 2019, emma.hudgins@mail.mcgill.ca
 
 ### 1. Load data and packages, set parameters ####
 rm(list=ls()) 
-require(here) # guesses most likely working directory
-require(rstan)
+require(here) #version 1.0.1, in case .Rproj isn't loaded
+require(rstan) #version 2.21.2
 setwd(here())
 rstan_options(auto_write = TRUE)
 
-lhc<-read.csv('./data/lhc_beta_data.csv') # latin hypercube simulated cost data based on lhc-sampled parameters
+lhc<-read.csv('./data/lhc_beta_data.csv') # latin hypercube simulated severity data based on lhc-sampled parameters
 pars<-read.csv('./data/lhc_draws_beta.csv') #latin hypercube sampled beta parameters
 inv_dat_reduced<-read.csv("./data/each_spp_pesthost_patho.csv") #Number of pests in each severity category in Potter et al (2019) Forests.
 inv_dat_reduced$severity<-as.numeric(inv_dat_reduced$severity)
@@ -17,15 +18,10 @@ inv_dat_reduced$severity<-as.numeric(inv_dat_reduced$severity)
 nsims<-10 # number of theoretical simulations
 nsamps<- 10000 #number of samples form posterior
 
-# Asymptotic mortality thresholds from Potter et al. 2019
-oneT=0.01
-threeT=0.10
-fiveT=0.25
-eightT=0.95
-
 
 
 #### 2. Run theoretical analysis ####
+## Checks for bias in parameters using percentile-percentile plots (see Leung & Steele 2013)
 for(i in 1:nsims)
 {
   y<-as.numeric(lhc[i,])
@@ -38,6 +34,12 @@ for(i in 1:nsims)
 
 
 #### 3. Fit empirical model ####
+
+# Asymptotic mortality thresholds from Potter et al. 2019
+oneT=0.01
+threeT=0.10
+fiveT=0.25
+eightT=0.95
 
 # calculate number of host genera per pest
 lengths<-aggregate(inv_dat_reduced$genus~inv_dat_reduced$pest,FUN=length) 
@@ -52,10 +54,10 @@ lengths_each<-merge(inv_dat_reduced,lengths, by="pest")
  nine_spp<-sum((1*inv_dat_reduced$severity==9)/lengths_each$`inv_dat_reduced$genus`)
  ten_spp<-sum((1*inv_dat_reduced$severity==10)/lengths_each$`inv_dat_reduced$genus`)
  
-# add on lower severity data from Aukema et al. 2011. PLoS oNE
+# add on lower severity data from Aukema et al. 2011. PLoS oNE (2 categories below category 1 from Potter)
  subone_spp<-33+sum((1*inv_dat_reduced$severity==0)/lengths_each$`inv_dat_reduced$g
-                    enus`)
- subsubone_spp<-418-60
+                    enus`) # 33 'intermediate impact' species from Aukema missing in Potter + some fraction of pest-host interactions with pest present
+ subsubone_spp<-418-60 #total number of species examined in Aukema minus total examined here.
 
  
  #### 4. Run STAN code ####
@@ -65,7 +67,7 @@ lengths_each<-merge(inv_dat_reduced,lengths, by="pest")
 # sample the posterior
  
  beta_samps<-extract(m_beta)
- subsubone<-subone<-one<-three<-five<-eight<-nine<-ten<-rep(0,nsamps)
+ subsubone<-subone<-one<-three<-five<-eight<-nine<-ten<-rep(0,nsamps) #mortality categories
  for (i in 1:nsamps)
  {
    rand_beta<-rbeta(100000,shape1=beta_samps$shape[i], shape2=beta_samps$scale[i])
