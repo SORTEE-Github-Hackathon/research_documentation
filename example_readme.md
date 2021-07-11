@@ -5,10 +5,6 @@
 
 _Authors: Emma J. Hudgins, Frank H. Koch, Mark J. Ambrose, and Brian Leung_
 
-
-Software: STAN version 2.21.0; R Version 4.1.0
-
-
 ---
 
 Written in R version 4.0.2 and rSTAN version 2.19.3
