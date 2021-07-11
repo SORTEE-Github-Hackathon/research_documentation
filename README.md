@@ -10,26 +10,28 @@
 ### 1. Getting set up 
 - Make a [Github](https://github.com) account
 - Download the [Github Desktop App](https://desktop.github.com)
-- Create an [OSF](https://osf.io) account
-- Create a [Research Data Management Plan](https://assistant.portagenetwork.ca) for your project
+- (optional) Create an [OSF](https://osf.io) account
+- (optional) Create a [Research Data Management Plan](https://assistant.portagenetwork.ca) for your project
 
 ### 2. Using GitHub desktop 
 - In the left pane, select **Add** to create a new repository
-- Choose **Create new repository** and give the path to the project folder (or create a new folder). The folder can be in your Dropbox/OneDrive etc. for extra backup
-- A **Git** pane should now appear in the top right of newer versions of RStudio when you're working in the associated R Project (see 3.4 for more on Git), but you can also set a default text editor (I like [**Sublime**](https://www.sublimetext.com))
+- Choose **Create new repository** and give the path to a new project folder (or use an existing folder via **Add existing repository**). I keep all my repos in my _OneDrive_.<sup>1</sup>
+- Choose a License that reflects the reuse conditions you'd like for your project (see [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository) for a description of licenses available)
+- Initialize the repo with a **README** that you will fill following the **Metadata** tips in section 4. to ensure reproducibility
+- If necessary, change the [privacy settings](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility) of your repo on the Github website (storage limits are lower for private repositories).
+- A **Git** pane should now appear in the top right of newer versions of RStudio when you're working in the associated R Project, but you can also set a default text editor (I like [**Sublime**](https://www.sublimetext.com))
 
+<sub>1. Some people say not to do this because it causes OneDrive to constantly sync small Github files, but it doesn't seem to cause me any trouble, and it helps me avoid accidentally deleting things when I make mistakes with  GitHub Desktop. [see here for at least one other person who does this](https://medium.com/@awlucattini_60867/i-backup-my-cloned-github-repositories-on-onedrive-54b176192950)</sub> 
 
 #### 3. Linking GitHub with OSF
 
-* Create a new OSF project 
- ![](https://github.com/SORTEE-Github-Hackathon/research_documentation/osf_proj.png)
-*  or use a template (My lab has started following this basic template)
-
-* add your RDMP to the RDMP section of the OSF project
-* Add GitHub as an Add-on in your OSF profile in **Settings>>Configure add-on accounts**
+* Create a new OSF project <br> <img src="/screenshots/osf_proj.png" alt="OSF project screenshot" width="400">
+* Or use a template (_My lab has started following this basic template_) <img src="/screenshots/proj_template.png" alt="OSF project screenshot" width="800">
+* Use a program like [DMP Assistant](https://assistant.portagenetwork.ca) to add a Research Data Management Plan to the RDMP section of the OSF project
+* Add GitHub as an Add-on in your OSF profile in **Settings>> Select add-ons** <img src="/screenshots/osf_github.png" alt="OSF github integration screenshot" width="800"><img src="/screenshots/import_acct.png" alt="OSF import account screenshot" width="800">
 * Link GitHub with your OSF account in the **Add-ons** section of the relevant project components (e.g. Analysis)
-    - Select **Import Account from Profile**
-    - Select the corresponding repo for the project
+    - Select **Import Account from Profile** <img src="/screenshots/import_acct.png" alt="OSF import account screenshot" width="800">
+    - Select the corresponding repo for the project <img src="/screenshots/select_repo.png" alt="OSF select repo screenshot" width="800">
 
 #### 4. Some reproducibility tips (large taken from the Bennett Lab manual compiled by Jaimie Vincent)
 
@@ -68,7 +70,7 @@ https://help.osf.io/hc/en-us/articles/360019931113-File-naming
 - Use the most informative naming as possible within all project components (including variable names in code).
 - Number or date scripts so that they order themselves meaningfully (i.e. by order of use or version number)
 
-#### Appendix 1. Connecting to a remote server via SSH
+#### Appendix 1. Connecting to a remote server via SSH (in case you want to sync your GitHub repo with a server for backup or computing power)
 
 
 * Open terminal (```Ctrl+Alt+T``` on Ubuntu, ```Command+Space``` on Mac to bring up **Spotlight** and search for ```Terminal```, or use the Windows Start menu and look for **Windows Powershell** or **Command Prompt**)
@@ -80,9 +82,9 @@ EmmaH:~/$ ssh ehudgins@nature-vm04.carleton.ca
 * Navigate to the directory where your script is stored (maybe you transfered it there with FileZilla?) using [*cd*](https://linuxize.com/post/linux-cd-command/)
 
 
-#### Appendix 2. Configuring git on a remote machine
+#### Appendix 2. Configuring git on a remote machine (this section also shows you how to embed code chunks in Markdown)
 
-* If you want to sync an existing GitHub repository, use git in the terminal (see 3.4, and [see here for more info](http://dept.stat.lsa.umich.edu/~jerrick/courses/stat701/notes/git.html) on working with git in various ways 
+* If you want to sync an existing GitHub repository, use git in the terminal ([see here for more info](http://dept.stat.lsa.umich.edu/~jerrick/courses/stat701/notes/git.html) on working with git in various ways)
 
 * To clone a GitHub repo to a remote machine, install *git*
     - in the terminal (for Ubuntu), type
