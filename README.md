@@ -15,7 +15,7 @@
 
 ### 2. Using GitHub desktop 
 - In the left pane, select **Add** to create a new repository
-- Choose **Create new repository** and give the path to a new project folder (or use an existing folder via **Add existing repository**). I keep all my repos in my _OneDrive_.<sup>1</sup>
+- Choose **Create new repository** and give the path to a new project folder (or use an existing folder via **Add existing repository**). I keep all my repos in my _OneDrive_.<sup>1</sup> in a golder called **Github**
 - Choose a License that reflects the reuse conditions you'd like for your project (see [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository) for a description of licenses available)
 - Initialize the repo with a **README** that you will fill following the **Metadata** tips in section 4. to ensure reproducibility
 - If necessary, change the [privacy settings](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility) of your repo on the Github website (storage limits are lower for private repositories).
@@ -62,10 +62,10 @@ The RDMP can help transparency around whose intellectual property this work repr
     - Consider using packages that guess working directories (e.g. here package for R), or using project files like .Rproj to facilitate data and code integration when the data and code are shared
 
 * Hosting
-    - Link the project with a platform that can provide a persistent link to the published version of the data (e.g. Zenodo link with GitHub, Dryad) in order to ensure the published results can be reproduced even as the workflow evolves (add Zenodo example)
+    - Link the project with a platform that can provide a persistent link to the published version of the data (e.g. Zenodo link with GitHub, Dryad) in order to ensure the published results can be reproduced even as the workflow evolves. [See here for how to create a Release and link with Zenodo](https://guides.github.com/activities/citable-code/)
 
 * Naming:
-https://help.osf.io/hc/en-us/articles/360019931113-File-naming
+[OSF naming guidelines](https://help.osf.io/hc/en-us/articles/360019931113-File-naming)
 - Consider adopting a standard file naming convention, i.e. using dashes or underscores to separate name components (avoiding special characters and spaces, especially)
 - Use the most informative naming as possible within all project components (including variable names in code).
 - Number or date scripts so that they order themselves meaningfully (i.e. by order of use or version number)
