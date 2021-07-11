@@ -23,6 +23,8 @@
 - Initialize the repo with a **README** that you will fill following the **Metadata** tips in section 4. to ensure reproducibility
 - If necessary, change the [privacy settings](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility) of your repo on the Github website (storage limits are lower for private repositories).
 
+<sub>1. Some people say not to do this because it causes OneDrive to constantly sync small Github files, but it doesn't seem to cause me any trouble, and it helps me avoid accidentally deleting things when I make mistakes with  GitHub Desktop. [see here for at least one other person who does this](https://medium.com/@awlucattini_60867/i-backup-my-cloned-github-repositories-on-onedrive-54b176192950)</sub> 
+
 ####2.2 your first commit
 - You can manually open your files as usual, but you can also use the **Repository** tab to open your files all at once in a text editor (I set my default to [**Sublime**](https://www.sublimetext.com))
 - Try make a small change to one of your files, or create a new file.
@@ -30,10 +32,16 @@
 - If you're satisfied with your changes, type a commit message (or use the default for a single file change) and press **Commit**
 - Send your changes to Github's server by pressing **Push to origin**  <img src="/screenshots/push.png" alt="github push screenshot" width="400">
 - Your changes will be reflected on the online version of your repo.
-- Now, try changing a file on the online repo (e.g. using the pencil icon to update the README) and **Pull**ing the changes to your local computer
-- A **Git** pane should now appear in the top right of newer versions of RStudio when you're working in the associated R Project.
 
-<sub>1. Some people say not to do this because it causes OneDrive to constantly sync small Github files, but it doesn't seem to cause me any trouble, and it helps me avoid accidentally deleting things when I make mistakes with  GitHub Desktop. [see here for at least one other person who does this](https://medium.com/@awlucattini_60867/i-backup-my-cloned-github-repositories-on-onedrive-54b176192950)</sub> 
+####2.3 pulling online changes to your machine
+- Now, try changing a file on the online repo (e.g. using the pencil icon  <img src="/screenshots/pencil.png" alt="pencil icon" width="100"> to update the README) and **Pull**ing the changes to your local computer 
+- Here's an example of me editing the README <img src="/screenshots/online_commit.png" alt="online commit screenshot" width="400"> -
+- You may need to click 'Fetch origin' to see your changes <img src="/screenshots/fetch.png" alt="pencil icon" width="400"> 
+- Now **Pull **<img src="/screenshots/pull.png" alt="pencil icon" width="400"> 
+- Now your local computer is up to date with the online repo!
+
+- **NOTE:** A **Git** pane should now appear in the top right of newer versions of RStudio when you're working in the associated R Project and works similarly to Github Desktop.
+
 
 #### 3. Linking GitHub with OSF
 
