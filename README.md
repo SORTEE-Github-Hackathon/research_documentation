@@ -64,11 +64,10 @@ The RDMP can help transparency around whose intellectual property this work repr
 * Hosting
     - Link the project with a platform that can provide a persistent link to the published version of the data (e.g. Zenodo link with GitHub, Dryad) in order to ensure the published results can be reproduced even as the workflow evolves. [See here for how to create a Release and link with Zenodo](https://guides.github.com/activities/citable-code/)
 
-* Naming:
-[OSF naming guidelines](https://help.osf.io/hc/en-us/articles/360019931113-File-naming)
-- Consider adopting a standard file naming convention, i.e. using dashes or underscores to separate name components (avoiding special characters and spaces, especially)
-- Use the most informative naming as possible within all project components (including variable names in code).
-- Number or date scripts so that they order themselves meaningfully (i.e. by order of use or version number)
+* Naming ([OSF naming guidelines](https://help.osf.io/hc/en-us/articles/360019931113-File-naming))
+    - Consider adopting a standard file naming convention, i.e. using dashes or underscores to separate name components (avoiding special characters and spaces, especially)
+    - Use the most informative naming as possible within all project components (including variable names in code).
+    - Number or date scripts so that they order themselves meaningfully (i.e. by order of use or version number)
 
 #### Appendix 1. Connecting to a remote server via SSH (in case you want to sync your GitHub repo with a server for backup or computing power)
 
