@@ -4,7 +4,7 @@
 [![hackmd-github-sync-badge](https://hackmd.io/N9ISkOp3QraJ_sVEiZdU4Q/badge)](https://hackmd.io/N9ISkOp3QraJ_sVEiZdU4Q)
 
 
-#### _A quick tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca), originally for the Bennett Lab @ Carleton_
+#### _A tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca)_
 
 
 ### 1. Getting set up 
@@ -15,7 +15,7 @@
 
 ### 2. Using GitHub desktop 
 
-####2.1 creating a repo
+#### 2.1 creating a repo
 - In the left pane, select **Add** to create a new repository
 - Choose **Create new repository** and give the path to a new project folder (or fork this one via **Clone**, or add an existing folder). <img src="/screenshots/create_repo.png" alt="github desktop create repo" width="400">
 - I keep all my repos in my _OneDrive_.<sup>1</sup> in a folder called **Github**<img src="/screenshots/github_folder.png" alt="github folder screenshot" width="600">
@@ -25,22 +25,23 @@
 
 <sub>1. Some people say not to do this because it causes OneDrive to constantly sync small Github files, but it doesn't seem to cause me any trouble, and it helps me avoid accidentally deleting things when I make mistakes with  GitHub Desktop. [see here for at least one other person who does this](https://medium.com/@awlucattini_60867/i-backup-my-cloned-github-repositories-on-onedrive-54b176192950)</sub> 
 
-####2.2 your first commit
+#### 2.2 Your first commit!
 - You can manually open your files as usual, but you can also use the **Repository** tab to open your files all at once in a text editor (I set my default to [**Sublime**](https://www.sublimetext.com))
 - Try make a small change to one of your files, or create a new file.
 - If you navigate back to Github desktop, there should be evidence of a changed/new file <img src="/screenshots/commit.png" alt="github folder screenshot" width="800">
-- If you're satisfied with your changes, type a commit message (or use the default for a single file change) and press **Commit**
-- Send your changes to Github's server by pressing **Push to origin**  <img src="/screenshots/push.png" alt="github push screenshot" width="400">
-- Your changes will be reflected on the online version of your repo.
+- If you're satisfied with your changes, type a commit message (or use the default for a single file change) and press **Commit to main**
+- Send your changes to Github's server by pressing **Push to origin** <br> <img src="/screenshots/push.png" alt="github push screenshot" width="800">
+- Your changes should now be reflected on the online version of your repo!
+- **NOTE:** There should be a **Git** pane in the top right of newer versions of RStudio when you're working in an R Project contained within a Github repo, and using it to Push and Commit works similarly to Github Desktop.
 
-####2.3 pulling online changes to your machine
-- Now, try changing a file on the online repo (e.g. using the pencil icon  <img src="/screenshots/pencil.png" alt="pencil icon" width="100"> to update the README) and **Pull**ing the changes to your local computer 
-- Here's an example of me editing the README <img src="/screenshots/online_commit.png" alt="online commit screenshot" width="400"> -
-- You may need to click 'Fetch origin' to see your changes <img src="/screenshots/fetch.png" alt="pencil icon" width="400"> 
-- Now **Pull **<img src="/screenshots/pull.png" alt="pencil icon" width="400"> 
-- Now your local computer is up to date with the online repo!
+#### 2.3 Pulling online changes to your machine
+- Now, try changing a file on the online repo (e.g. using the pencil icon  <img src="/screenshots/pencil.png" alt="pencil icon" width="40"> to update the README) 
+- Here's an example of the Commit menu after I edited the README <img src="/screenshots/online_commit.png" alt="online commit screenshot" width="800"> -
+- You may need to click 'Fetch origin' to see your changes <br><img src="/screenshots/fetch.png" alt="pencil icon" width="400"> 
+- Now **Pull** <br><img src="/screenshots/pull.png" alt="pencil icon" width="400"> 
+- Now your local computer should be up to date with the online repo!
 
-- **NOTE:** A **Git** pane should now appear in the top right of newer versions of RStudio when you're working in the associated R Project and works similarly to Github Desktop.
+- **NOTE:** There should be a **Git** pane in the top right of newer versions of RStudio when you're working in an R Project contained within a Github repo, and using it to pull works similarly to Github Desktop.
 
 
 #### 3. Linking GitHub with OSF
@@ -53,7 +54,7 @@
     - Select **Import Account from Profile** <img src="/screenshots/import_acct.png" alt="OSF import account screenshot" width="800">
     - Select the corresponding repo for the project <img src="/screenshots/select_repo.png" alt="OSF select repo screenshot" width="800">
 
-#### 4. Some reproducibility tips (large taken from the Bennett Lab manual compiled by Jaimie Vincent)
+#### 4. Some reproducibility tips (largely taken from the Bennett Lab manual compiled by Jaimie Vincent)
 
 * Data management and storage
     - Starting any research project with an RDMP provides direction for conducting research in line with Open Science/FAIR practices.
