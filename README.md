@@ -14,13 +14,24 @@
 - (optional) Create a [Research Data Management Plan](https://assistant.portagenetwork.ca) for your project
 
 ### 2. Using GitHub desktop 
+
+####2.1 creating a repo
 - In the left pane, select **Add** to create a new repository
 - Choose **Create new repository** and give the path to a new project folder (or fork this one via **Clone**, or add an existing folder). <img src="/screenshots/create_repo.png" alt="github desktop create repo" width="400">
 - I keep all my repos in my _OneDrive_.<sup>1</sup> in a folder called **Github**<img src="/screenshots/github_folder.png" alt="github folder screenshot" width="600">
 - Choose a License that reflects the reuse conditions you'd like for your project (see [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository) for a description of licenses available)
 - Initialize the repo with a **README** that you will fill following the **Metadata** tips in section 4. to ensure reproducibility
 - If necessary, change the [privacy settings](https://docs.github.com/en/github/administering-a-repository/managing-repository-settings/setting-repository-visibility) of your repo on the Github website (storage limits are lower for private repositories).
-- A **Git** pane should now appear in the top right of newer versions of RStudio when you're working in the associated R Project, but you can also set a default text editor (I like [**Sublime**](https://www.sublimetext.com))
+
+####2.2 your first commit
+- You can manually open your files as usual, but you can also use the **Repository** tab to open your files all at once in a text editor (I set my default to [**Sublime**](https://www.sublimetext.com))
+- Try make a small change to one of your files, or create a new file.
+- If you navigate back to Github desktop, there should be evidence of a changed/new file <img src="/screenshots/commit.png" alt="github folder screenshot" width="800">
+- If you're satisfied with your changes, type a commit message (or use the default for a single file change) and press **Commit**
+- Send your changes to Github's server by pressing **Push to origin**  <img src="/screenshots/push.png" alt="github push screenshot" width="400">
+- Your changes will be reflected on the online version of your repo.
+- Now, try changing a file on the online repo (e.g. using the pencil icon to update the README) and **Pull**ing the changes to your local computer
+- A **Git** pane should now appear in the top right of newer versions of RStudio when you're working in the associated R Project.
 
 <sub>1. Some people say not to do this because it causes OneDrive to constantly sync small Github files, but it doesn't seem to cause me any trouble, and it helps me avoid accidentally deleting things when I make mistakes with  GitHub Desktop. [see here for at least one other person who does this](https://medium.com/@awlucattini_60867/i-backup-my-cloned-github-repositories-on-onedrive-54b176192950)</sub> 
 
