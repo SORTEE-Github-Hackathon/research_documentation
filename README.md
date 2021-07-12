@@ -17,7 +17,7 @@ _A tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca)_
 
 #### 2.1 creating a repo
 - In the left pane, select **Add** to create a new repository
-- Choose **Create new repository** and give the path to a new project folder (or fork this one via **Clone**, or add an existing folder). <img src="/screenshots/create_repo.png" alt="github desktop create repo" width="400">
+- Choose **Create new repository** and give the path to a new project folder (or fork this one via **Clone**, or add an existing folder). <br><img src="/screenshots/create_repo.png" alt="github desktop create repo" width="400">
 - I keep all my repos in my _OneDrive_.<sup>1</sup> in a folder called **Github**<img src="/screenshots/github_folder.png" alt="github folder screenshot" width="600">
 - Choose a License that reflects the reuse conditions you'd like for your project (see [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository) for a description of licenses available)
 - Initialize the repo with a **README** that you will fill following the **Metadata** tips in section 4. to ensure reproducibility
