@@ -1,6 +1,7 @@
 # GitHub for research documentation
 
 See the slides [here](https://docs.google.com/presentation/d/1CQNClZyES0My-WFBqobd7KymMu9KLMrVLgvMO72WSPY/edit?usp=sharing)
+
 [![hackmd-github-sync-badge](https://hackmd.io/N9ISkOp3QraJ_sVEiZdU4Q/badge)](https://hackmd.io/N9ISkOp3QraJ_sVEiZdU4Q)
 
 _A tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca)_
