@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # GitHub for research documentation
 
 See the slides [here](https://docs.google.com/presentation/d/1CQNClZyES0My-WFBqobd7KymMu9KLMrVLgvMO72WSPY/edit?usp=sharing)
@@ -25,6 +30,7 @@ _A tutorial written by [Emma Hudgins](mailto:emma.hudgins@carleton.ca)_
 
 <sub>1. Some people say not to do this because it causes OneDrive to constantly sync small Github files, but it doesn't seem to cause me any trouble, and it helps me avoid accidentally deleting things when I make mistakes with  GitHub Desktop. [see here for at least one other person who does this](https://medium.com/@awlucattini_60867/i-backup-my-cloned-github-repositories-on-onedrive-54b176192950)</sub> 
 
+If the repo does not yet exist online, make sure you **Publish** it.<img src="/screenshots/publish.png" alt="github folder screenshot" width="600">
 #### 2.2 Your first commit!
 - You can manually open your files as usual, but you can also use the **Repository** tab to open your files all at once in a text editor (I set my default to [**Sublime**](https://www.sublimetext.com))
 - Try make a small change to one of your files, or create a new file.
